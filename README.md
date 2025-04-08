@@ -1,2 +1,1 @@
-# dows-apm
-Application program manager
+# dows-amp 消息中间件
