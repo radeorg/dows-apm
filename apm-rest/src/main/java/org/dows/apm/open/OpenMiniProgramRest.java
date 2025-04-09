@@ -25,7 +25,7 @@ public class OpenMiniProgramRest {
     @GetMapping("/v1/open/mp/verify/token")
     public String verifyToken(String token) {
 
-        log.info("token:{}", token);
+        log.info("get method verify token:{}", token);
         return "ok";
     }
 
@@ -34,7 +34,7 @@ public class OpenMiniProgramRest {
     @PostMapping("/v1/open/mp/verify/token")
     public String ppostVerifyToken(String token) {
 
-        log.info("token:{}", token);
+        log.info("post method verify token:{}", token);
         return "ok";
     }
 }
