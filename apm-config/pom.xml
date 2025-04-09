@@ -8,17 +8,8 @@
         <artifactId>dows-apm</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>apm-rest</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>org.dows.framework</groupId>
-            <artifactId>rade-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>apm-config</artifactId>
+
 
 
 </project>

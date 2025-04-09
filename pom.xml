@@ -22,8 +22,9 @@
 
     <modules>
         <module>apm-api</module>
-        <module>apm-api</module>
         <module>apm-rest</module>
+        <module>apm-boot</module>
+        <module>apm-config</module>
         <!--<module>apm-app</module>
         <module>apm-biz</module>
         <module>apm-boot</module>
