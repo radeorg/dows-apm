@@ -22,8 +22,8 @@ public class OpenMiniProgramRest {
      * @return
      */
     @Operation(summary = "小程序Token验证[GET]")
-    @GetMapping("/v1/open/mp/verify/token")
-    public String verifyToken(String token) {
+    @GetMapping("/v1/mp/message/receive")
+    public String verifyToken(RequestParams token) {
 
         log.info("get method verify token:{}", token);
         return "ok";
